@@ -98,13 +98,13 @@ const Users = () => {
         <HeroSection />
       </div>
       <div
-        className="py-6 px-10 bg-blue-200 bg-opacity-75 rounded-full my-10 flex flex-col items-center animate-bounce hover:bg-yellow-300 hover:bg-opacity-75 cursor-pointer "
+        className="my-6 mx-6 md:mx-10 bg-blue-200 bg-opacity-75 rounded-full py-6 flex flex-col items-center animate-bounce hover:bg-yellow-300 hover:bg-opacity-75 cursor-pointer  "
         onClick={handleOnClick}
       >
-        <button>
+        <button className="focus:outline-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
+            className="h-6 w-6 "
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -124,7 +124,7 @@ const Users = () => {
         {context.loading ? (
           <Spinner />
         ) : (
-          <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-10 mt-10 rounded ">
+          <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-10 mt-10 rounded ">
             {context.users.map((element) => (
               <UserItem
                 login={element.login}

@@ -11,7 +11,7 @@ import Users from "./Components/Users/Users";
 
 const App = () => {
   return (
-    <div className="bg-gradient-to-r from-purple-500 to-red-500 px-4 sm:px-6 lg:px-16    hover:from-pink-700 hover:to-yellow-400 ">
+    <div className="bg-gradient-to-r from-purple-500 to-red-500  min-w-full overflow-hidden   hover:from-pink-700 hover:to-yellow-400 ">
       <GithubState>
         <div>
           <Switch>
