@@ -75,7 +75,3 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
-body {
-  background: linear-gradient(to purple, right red);
-}

@@ -137,7 +137,7 @@ const Profile = (props) => {
       ) : (
         <div className="min-h-auto ">
           <div className="flex justify-center  text-gray-100">
-            <div className="  bg-gray-700 bg-opacity-25 rounded-lg w- justify-self-start w-10/12 sm:w-9/12 md:w-8/12 lg:w-6/12 h-4/5  mt-5 mx-1 shadow-inner ">
+            <div className="  bg-gray-700 bg-opacity-25 rounded-lg   w-10/12 sm:w-9/12 md:w-8/12 lg:w-6/12 h-4/5  mt-5 mx-1 shadow-inner ">
               <div className="flex flex-col sm:flex-row  relative ">
                 <img
                   src={context.user.avatar_url}
